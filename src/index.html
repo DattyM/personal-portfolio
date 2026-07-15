@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Douglas | Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://placehold.co" alt="Placeholder Image" width="300" height="200">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <p> Welcome to the Portfolio of the</p>
+                <h1 id="rotating-title">Future Software Developer</h1>
+                <p>Matthew Douglas | CS Undergrad</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#">Connect</a>
+                <a href="#">Resume</a>
+            </div>
+        </section>
+        <section id="about-me">
+            <div class="about-bio">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt error cum eligendi ad, maxime ipsa placeat voluptatum, sequi distinctio pariatur sunt sed, illum velit dolore facere voluptatibus magnam nobis aliquam?</p>
+            </div>
+            <div class="about-icons">
+                <a href="https://www.linkedin.com/in/matthew-douglas-7199652b1/">Linked-In</a>
+                <a href="https://github.com/DattyM">GitHub</a>
+                <a href="https://leetcode.com/u/DattyM/">LeetCode</a>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-grid">
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Project Name</h3>
+                    <img src="https://placehold.co" alt="Placeholder Image" width="30" height="20">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi ad quos illo earum voluptate voluptatum, neque illum, minima vel mollitia qui et explicabo alias quasi numquam inventore nemo vero!</p>
+                    <div class="project-links">
+                        <a href="#">View Live</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h3>Project Name</h3>
+                    <img src="https://placehold.co" alt="Placeholder Image" width="30" height="20">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi ad quos illo earum voluptate voluptatum, neque illum, minima vel mollitia qui et explicabo alias quasi numquam inventore nemo vero!</p>
+                    <div class="project-links">
+                        <a href="#">View Live</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h3>Project Name</h3>
+                    <img src="https://placehold.co" alt="Placeholder Image" width="30" height="20">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi ad quos illo earum voluptate voluptatum, neque illum, minima vel mollitia qui et explicabo alias quasi numquam inventore nemo vero!</p>
+                    <div class="project-links">
+                        <a href="#">View Live</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div>
+                    <h3>AI Trainer</h3>
+                    <p>DataAnnotations</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias consectetur delectus eos eveniet error deleniti hic asperiores. Neque ea autem libero dolor hic quasi saepe quibusdam deleniti aliquid magnam?</p>
+                    <span class="timeline-date">Month Year - Present</span>
+                </div>
+                <div>
+                    <h3>Tech Consultant</h3>
+                    <p>Target</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, dolores accusantium. Assumenda ullam animi nemo et facilis suscipit consequuntur totam voluptatibus, aperiam eos! Eligendi aut autem, non minima iusto in!</p>
+                    <span class="timeline-date">Month Year - Month Year</span>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <p id="form-status"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Matthew Douglas</p>
+        <a href="#hero">Back to Home</a>
+    </footer>
+</body>
+<script src="script.js">
+</script>
+</html>
