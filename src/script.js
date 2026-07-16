@@ -55,3 +55,15 @@ function updateTimelineProgress() {
 
 window.addEventListener("scroll", updateTimelineProgress);
 updateTimelineProgress();
+
+const contactForm = document.getElementById("contact-form");
+const formStatus = document.getElementById("form-status");
+
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  formStatus.textContent = "Thanks for reaching out! I'll get back to you soon.";
+  formStatus.style.color = "var(--color-accent)";
+
+  contactForm.reset();
+});
