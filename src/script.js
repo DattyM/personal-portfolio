@@ -37,3 +37,21 @@ function typeEffect() {
 }
 
 typeEffect();
+
+const timeline = document.querySelector(".timeline");
+const timelineProgress = document.querySelector(".timeline-progress");
+
+function updateTimelineProgress() {
+  const rect = timeline.getBoundingClientRect();
+  const viewportHeight = window.innerHeight;
+
+  const scrolledIntoView = viewportHeight - rect.top;
+  const progress = scrolledIntoView / rect.height;
+
+  const clampedProgress = Math.min(Math.max(progress, 0), 1);
+
+  timelineProgress.style.height = (clampedProgress * rect.height) + "px";
+}
+
+window.addEventListener("scroll", updateTimelineProgress);
+updateTimelineProgress();
