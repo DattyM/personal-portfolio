@@ -37,3 +37,15 @@ function typeEffect() {
 }
 
 typeEffect();
+
+const contactForm = document.getElementById("contact-form");
+const formStatus = document.getElementById("form-status");
+
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  formStatus.textContent = "Thanks for reaching out! I'll get back to you soon.";
+  formStatus.style.color = "var(--color-accent)";
+
+  contactForm.reset();
+});
