@@ -1,7 +1,7 @@
 const titles = [
+  "Programmer",
   "Future Software Developer",
   "Problem Solver",
-  "Programmer",
   "Future AI Engineer"
 ];
 

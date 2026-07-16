@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A single-page personal portfolio built with vanilla HTML, CSS, and JavaScript for [Course Name] Project 1.
+A single-page personal portfolio built with HTML, CSS, and JavaScript.
 
 ## PART 1: CONTENT (Answer ALL questions)
 
